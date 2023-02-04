@@ -1,6 +1,6 @@
 public class Car {
-    private String model;
-    private int price;
+    private final String model;
+    private final int price;
 
     //constructor
     public Car(String model, int price) {
